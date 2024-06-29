@@ -1,0 +1,22 @@
+.product-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-image > img {
+    width: 250px;
+}
+
+@media (max-width: 576px) {
+    .product-details {
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .product-details {
+        display: grid;
+        place-items: center;
+    }
+}
